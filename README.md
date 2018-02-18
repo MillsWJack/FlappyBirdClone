@@ -15,7 +15,7 @@ A recreation of the mobile game Flappy Bird, made with all of my own SFX, and bo
 
 Control with space bar
 
-**Try to dodge all of the incoming pipes! Your score will increase as you do so!
+**Try to dodge all of the incoming pipes! Your score will increase as you do so!**
 
 ![Alt Text](https://i.imgur.com/ivS6Hr6.png)
 
