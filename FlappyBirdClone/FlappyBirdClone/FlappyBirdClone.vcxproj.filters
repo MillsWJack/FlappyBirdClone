@@ -27,9 +27,6 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Star.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TextTexture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -40,6 +37,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,13 +59,13 @@
     <ClInclude Include="GameEntity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Star.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TextTexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

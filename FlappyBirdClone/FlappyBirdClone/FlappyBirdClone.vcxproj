@@ -127,9 +127,9 @@
     <ClCompile Include="Ball.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameEntity.cpp" />
+    <ClCompile Include="Background.cpp" />
     <ClCompile Include="Pillar.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Star.cpp" />
     <ClCompile Include="TextTexture.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
@@ -138,8 +138,8 @@
     <ClInclude Include="Ball.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameEntity.h" />
+    <ClInclude Include="Background.h" />
     <ClInclude Include="Pillar.h" />
-    <ClInclude Include="Star.h" />
     <ClInclude Include="TextTexture.h" />
     <ClInclude Include="Timer.h" />
   </ItemGroup>

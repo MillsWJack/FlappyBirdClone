@@ -12,6 +12,7 @@
 #include "Timer.h"
 #include "TextTexture.h"
 #include "Audio.h"
+#include "Background.h"
 
 class Game
 {
@@ -41,6 +42,7 @@ private:
 	Ball* ball;
 	Pillar* pillar;
 	Audio* audio;
+	Background* bg;
 
 	TextTexture* textTexture;
 	SDL_Event e;

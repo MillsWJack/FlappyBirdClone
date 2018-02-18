@@ -138,6 +138,7 @@ void Game::Update()
 	}
 
 	ball->Update();
+	bg->moveX();
 
 	checkScreenCollisions(ball);
 
@@ -145,9 +146,9 @@ void Game::Update()
 
 void Game::Render()
 {
-	SDL_SetRenderDrawColor(renderer, 188, 252, 255, 0);
 	SDL_RenderClear(renderer);
 
+	bg->render();
 	ball->Render();
 	
 	//Render pillars and check collisions
@@ -190,6 +191,7 @@ void Game::newGame()
 		pillarList.erase(pillarList.begin(), pillarList.end());
 	}
 
+	bg = new Background(renderer);
 	ball = new Ball(renderer);
 	textTexture = new TextTexture(renderer);
 }
